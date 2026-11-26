@@ -1,0 +1,414 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "WorkBuddy 完整使用教程",
+    "section": "",
+    "text": "书籍简介\n这是一本面向 WorkBuddy 新用户的上手指南。全书按六个任务模块组织，从”装好它、守住边界”开始，一路讲到提示词与模型、技能与连接器、深度调研实战、专家与团队协作，最后落到资料库与记忆。\n本书适用于 WorkBuddy 新用户、希望系统掌握 Agent 工具使用的从业者，既可作为入门教程，也可作为功能速查手册。",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#书籍简介",
+    "href": "index.html#书籍简介",
+    "title": "WorkBuddy 完整使用教程",
+    "section": "",
+    "text": "核心内容：涵盖安全起步、Prompt 提示词与模型选择、Skill 技能与 MCP 连接器、技能实战与深度调研、专家与团队、资料库与记忆六大模块；\n官方文档：术语、按钮名称与操作步骤均保留 WorkBuddy 官方表述，共 26 个小节；\n如实标注：对官方文档未公开详述的部分（如 SKILL.md 文件规范、身份文件格式、子 Agent 配置细节），以”说明”形式标注，未作臆测；\n独立成篇：每一章都可以单独阅读，连起来则是一条完整的学习路径。",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#如何使用本书",
+    "href": "index.html#如何使用本书",
+    "title": "WorkBuddy 完整使用教程",
+    "section": "如何使用本书",
+    "text": "如何使用本书\n\n导航方式：左侧侧边栏可浏览全部章节结构（默认全部展开），支持关键词搜索（输入框位于侧边栏顶部）；\n阅读模式：每页右侧目录可跳转到本页小节，点击标题锚点可定位到具体段落；\n二次编辑：源文件为 .qmd（Markdown 兼容），可直接修改内容后在本书目录运行 quarto render 重新编译；\n版本更新：若功能有更新，请以 WorkBuddy 官方文档为准，本教程将持续迭代。",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#六章导览",
+    "href": "index.html#六章导览",
+    "title": "WorkBuddy 完整使用教程",
+    "section": "六章导览",
+    "text": "六章导览\n\n\n\n章节\n主题\n一句话概括\n\n\n\n\nTask 1\n认识 WorkBuddy 与安全起步\n装上它，守好边界\n\n\nTask 2\nPrompt 提示词与模型选择\n说清楚，选对大脑\n\n\nTask 3\nSkill 技能与 MCP 连接器\n用好现成工具\n\n\nTask 4\n技能实战与深度调研实战\n定制工作流，拿下陌生领域\n\n\nTask 5\n专家与团队（Expert Team）\n团队协作\n\n\nTask 6\n资料库与记忆（Memory）\n材料留住，习惯记住",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#相关链接",
+    "href": "index.html#相关链接",
+    "title": "WorkBuddy 完整使用教程",
+    "section": "相关链接",
+    "text": "相关链接\n\n\n\n资源\n链接\n说明\n\n\n\n\nWorkBuddy 官网\nwww.workbuddy.cn\n产品主页与下载入口\n\n\n官方文档\nWorkBuddy 文档中心\n本教程内容的依据来源\n\n\n技能市场\nSkillHub\n查找与安装现成技能",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#开始阅读",
+    "href": "index.html#开始阅读",
+    "title": "WorkBuddy 完整使用教程",
+    "section": "开始阅读",
+    "text": "开始阅读\n从 Task 1：认识 WorkBuddy 与安全起步 开始，或从左侧目录任选一章。\n\n若功能有更新，请以 WorkBuddy 官方文档为准。本教程将持续迭代，当前版本为 1.0。",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
+    ]
+  },
+  {
+    "objectID": "01-认识WorkBuddy与安全起步.html",
+    "href": "01-认识WorkBuddy与安全起步.html",
+    "title": "Task 1｜认识 WorkBuddy 与安全起步",
+    "section": "",
+    "text": "1.1 Agent 工具介绍",
+    "crumbs": [
+      "**基础入门**",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Task 1｜认识 WorkBuddy 与安全起步</span>"
+    ]
+  },
+  {
+    "objectID": "01-认识WorkBuddy与安全起步.html#agent-工具介绍",
+    "href": "01-认识WorkBuddy与安全起步.html#agent-工具介绍",
+    "title": "Task 1｜认识 WorkBuddy 与安全起步",
+    "section": "",
+    "text": "核心能力（六项）\n\n自然语言交互：用一句话描述需求，无需预先拆分复杂操作步骤。\n自主规划与执行：根据任务目标自动拆解步骤、规划流程并完成。\n多模态任务处理：支持文档、表格、PPT、数据分析等多种任务类型。\n本地文件操作：授权后可读取和处理本地文件，支持批量整理、修改。\n多任务并行：可同时创建和处理多个任务，适合并行推进不同工作。\n结果交付与验收：完成后可在结果区查看和使用生成的成果。\n\n\n\n与传统 AI 对话的区别\n\n\n\n对比项\n传统 AI 对话\nWorkBuddy\n\n\n\n\n任务执行\n只能对话，提供建议\n能够实际执行任务\n\n\n文件操作\n需要手动操作文件\n自动操作本地文件\n\n\n任务复杂度\n单步骤简单任务\n多步骤复杂任务\n\n\n输出\n输出文字回复\n交付可验收的结果\n\n\n\n\n\n适用场景\n\n\n\n场景\n能做什么\n\n\n\n\n日常办公\n写文档、做分析、查资料、整理信息，把琐碎任务交出去\n\n\n代码开发\n写代码、读项目、开发网站和应用\n\n\n设计创意\n从想法出发生成图片、PPT、网页等设计内容\n\n\n项目协作\n围绕项目持续处理任务、使用项目资料\n\n\n专业任务\n用专家和技能复用专业知识与工作方法\n\n\n服务协作\n通过连接器接入第三方服务，访问外部数据\n\n\n资料与知识\n集中管理资料，基于资料检索、分析和生成内容\n\n\n\n\n\n认识工作界面\n\n\n\n区域\n功能\n\n\n\n\n工具栏\n屏幕顶部，提供关于、编辑、窗口等常用操作入口\n\n\n侧边栏\n显示任务列表（按文件夹分组），支持搜索管理；底部为用户头像\n\n\n对话区\n核心交互区，含任务标题栏、消息列表和输入框\n\n\n结果区\n右侧面板，提供「概览」与「产物」两类内容，可切换查看\n\n\n\n\n\n\n\n\n\n提示\n\n\n\n官方建议的阅读顺序：创建任务 → 任务管理 → 任务对话 → 结果查看。",
+    "crumbs": [
+      "**基础入门**",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Task 1｜认识 WorkBuddy 与安全起步</span>"
+    ]
+  },
+  {
+    "objectID": "01-认识WorkBuddy与安全起步.html#workbuddy-安装与登录",
+    "href": "01-认识WorkBuddy与安全起步.html#workbuddy-安装与登录",
+    "title": "Task 1｜认识 WorkBuddy 与安全起步",
+    "section": "1.2 WorkBuddy 安装与登录",
+    "text": "1.2 WorkBuddy 安装与登录\n\n环境要求\n\nWindows：Windows 10 及以上，支持 x64；不支持 Windows 7/8/8.1。\nmacOS：macOS 12（Monterey）及以上。\n\n\n\nWindows 安装\n\n访问官网点击「立即下载」，选择 Windows，下载安装包。\n双击安装包启动安装程序，勾选「我同意此协议」，点击「下一步」。\n选择安装路径（默认可直接下一步），确认开始菜单文件夹。\n建议勾选「创建桌面快捷方式」，确认配置后点击「安装」。\n安装完成后点击「完成」退出向导。\n\n\n\n\n\n\n\n说明\n\n\n\n安装用户建议选择「仅为我安装」。更新入口：头像 →「检查更新」，系统自动检测并升级。\n\n\n\n\nMac 安装\n版本选择：M 系列芯片选 Mac ARM64，Intel 芯片选 Mac X64；官网未识别设备时默认给 X64（可通过 Rosetta 在 M 系列运行，兼容性更广）。查版本：左上角苹果图标 →「关于本机」。\n\n双击下载的 .dmg 文件，打开安装窗口。\n将 WorkBuddy 图标拖入 Applications（应用程序） 文件夹。\n等待拷贝完成后，推出磁盘映像，可删除 .dmg 安装包。\n\n\n\n\n\n\n\n注意\n\n\n\n务必拖入「应用程序」文件夹后再启动。若直接从磁盘映像运行，WorkBuddy 将运行在只读映像上，后续无法自动更新。如检查更新失败，可点击提示中的「移动到应用程序」一键修复。\n\n\n\n\n登录\n\n启动 WorkBuddy，点击「登录」，浏览器自动打开登录页（workbuddy.cn）。\n勾选《用户服务协议》与《隐私政策》，使用微信扫码完成登录。\n页面显示登录成功后，返回客户端即可开始使用。\n\n也支持手机号、邮箱、SSO 等方式，全程在当前页面完成。个人用户选「个人」，企业版用户选「企业」。语言切换：头像 → 设置 → 通用 → 语言。",
+    "crumbs": [
+      "**基础入门**",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Task 1｜认识 WorkBuddy 与安全起步</span>"
+    ]
+  },
+  {
+    "objectID": "01-认识WorkBuddy与安全起步.html#任务与项目管理",
+    "href": "01-认识WorkBuddy与安全起步.html#任务与项目管理",
+    "title": "Task 1｜认识 WorkBuddy 与安全起步",
+    "section": "1.3 任务与项目管理",
+    "text": "1.3 任务与项目管理\n\n开启第一个任务\n\n微信扫码登录。\n点击「新建任务」创建 PC 端任务。\n在对话框中描述需求。\n点击「发送」，WorkBuddy 开始执行。\n打开右侧窗口查看结果：目标文件在「产物」，其他文件在「概览 → 工作空间文件」。\n\n\n\n\n\n\n\n提示\n\n\n\n移动端发送的任务在「助理」中查看。WorkBuddy 可连接小程序、App，接入微信助理、企微助理、QQ 机器人、飞书、钉钉机器人等。\n\n\n\n\n任务状态与筛选\n官方定义六种任务状态：进行中、已完成、失败、待处理、规划中、已归档。窗口左上方提供「搜索」与「筛选」：\n\n搜索：可检索任务、空间、产物与资料库，结果分五类，命中关键词高亮。\n筛选：支持按状态（进行中/已完成/失败等）和日期筛选，可一键重置。\n\n侧边栏对「已完成未读、失败（红色感叹号）、待确认」等状态做标记，分组收起时按 待确认 &gt; 已完成未读 &gt; 失败 &gt; 进行中 逐层聚合。\n\n\n继续处理与常用操作\n已完成、失败或中断的任务都可重新进入，在已有上下文基础上继续补充消息。悬停任务行点「⋯」或右键可：置顶、重命名、分享任务（生成公开链接）、独立窗口打开、保存到工作空间（可开启多个 Agent 协作）、归档、删除等。\n\n警告：删除任务不可恢复：删除后将从所有设备移除；运行中的任务删除会立即终止。正在运行的任务无法批量删除。\n\n常用快捷键：Ctrl/⌘+K 全局搜索、Ctrl/⌘+Shift+E 定位当前任务、Ctrl/⌘+[ ] 切换上一个/下一个任务。\n\n\n项目：团队协作能力\n项目通过「项目 + 任务」两层结构，让团队共享上下文、标准与知识。项目把指令、连接器、专家、技能和资料统一组织，成员发起任务时这些配置自动注入，无需重复设置。\n\n\n\n\n\n\n\n要点\n说明\n\n\n\n\n项目配置\n名称（必填）、指令（全局规则，所有任务继承）、连接器、专家、技能\n\n\n邀请成员\n点「邀请」→ 复制链接 → 对方申请 → 管理员在消息中心审批\n\n\n任务流转\n打包产物、进度摘要、自定义字段与附件，接收方基于完整上下文继续\n\n\n项目资产\n统一文件管理中心，以 RAG 形式注入上下文；每项目默认 5 GB 空间\n\n\n项目配置目录\n.codebuddy/rules/、agents/、skills/、commands/、CODEBUDDY.md，项目级优先于用户级",
+    "crumbs": [
+      "**基础入门**",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Task 1｜认识 WorkBuddy 与安全起步</span>"
+    ]
+  },
+  {
+    "objectID": "01-认识WorkBuddy与安全起步.html#移动端访问助理-远程任务",
+    "href": "01-认识WorkBuddy与安全起步.html#移动端访问助理-远程任务",
+    "title": "Task 1｜认识 WorkBuddy 与安全起步",
+    "section": "1.4 移动端访问（助理 / 远程任务）",
+    "text": "1.4 移动端访问（助理 / 远程任务）\n「助理」是 WorkBuddy 的远程控制功能，官方比喻为遥控器：手机发一条消息 → 电脑上的 WorkBuddy 自动执行 → 结果回复到手机。支持微信助理（推荐）、微信客服号、企微助理、QQ 机器人、飞书、钉钉机器人。\n典型场景：出门在外让电脑处理文件、会议中生成纪要、通勤路上准备材料、随时随地派发任务。\n\n\n\n对比项\n普通任务\n助理（远程任务）\n\n\n\n\n工作目录\n自由指定\n固定使用「助理」专属文件夹\n\n\n新建对话\n支持多个并行任务\n仅一个会话，所有远程指令集中处理\n\n\n上下文管理\n可清空历史重新开始\n保留完整历史，不可清空\n\n\n\n配置三步：头像 → 设置 → 助理设置 → 按需配置平台集成 → 按提示完成。使用时电脑需保持开机并运行 WorkBuddy、网络正常。微信客服号可直接扫码绑定，企业微信/QQ/飞书/钉钉通常需先在对应平台完成应用或机器人配置。\n\n\n\n\n\n\n要点\n\n\n\n安全边界：绑定身份（可灵活换绑）、来源校验（多层校验每条指令）、高风险任务确认（文件删除、系统配置修改、命令执行需确认）。解绑在「助理设置」中点卡片右侧「解绑」。",
+    "crumbs": [
+      "**基础入门**",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Task 1｜认识 WorkBuddy 与安全起步</span>"
+    ]
+  },
+  {
+    "objectID": "01-认识WorkBuddy与安全起步.html#权限模式与安全设置",
+    "href": "01-认识WorkBuddy与安全起步.html#权限模式与安全设置",
+    "title": "Task 1｜认识 WorkBuddy 与安全起步",
+    "section": "1.5 权限模式与安全设置",
+    "text": "1.5 权限模式与安全设置\nWorkBuddy 提供默认权限和完全访问权限两种模式。官方把它比作一层安全护栏：日常不挡路，真正越界或危险动作时请你再确认一次。切换入口在输入框底部的常驻权限状态按钮。\n\n\n\n对比项\n默认权限\n完全访问权限\n\n\n\n\n文件访问范围\n沙箱约束内，越界需请求允许\n计算机上任意位置\n\n\n删除/修改文件\n需逐次确认\n多数直接执行\n\n\n终端命令\n系统级命令需确认\n可直接运行、安装软件、改系统设置\n\n\n访问互联网\n受控，敏感动作需确认\n可访问网站、发送数据\n\n\n打断频率 / 风险\n较高 / 低\n很低 / 高\n\n\n生效范围\n当前任务\n当前客户端内所有任务，不跨设备\n\n\n\n默认权限重点保护：写入受保护/敏感路径、删除重要文件或批量删除、执行脚本命令或外部程序、网络访问或敏感能力。取消确认则不会执行。沙箱还提供命令约束、删除保护（回收站）、文件备份。\n\n\n\n\n\n\n注意\n\n\n\n不建议开启完全访问的场景：处理生产/客户/财务资料或唯一副本；工作目录靠近桌面、下载或项目根目录；任务会批量删除/重命名/覆盖；需运行不了解的脚本；电脑有重要文件且无备份。仅在 Docker、虚拟机、一次性目录等可隔离环境短时开启，用完即关。\n\n\n\n安全中心\n安全中心做比权限模式更细粒度的控制，统一管理安全、数据保护与运行环境，主要分组：\n\n\n\n\n\n\n\n分组\n主要配置项\n\n\n\n\n沙箱安全\n总开关；文件安全（按路径设允许/询问/拒绝）；命令安全（按前缀）；网络安全（按域名/URL，macOS 支持严格模式）；自动备份\n\n\n工具管控\n按工具、MCP 服务及工具粒度启停，对客户端所有 Agent 生效；自定义 MCP 统一开关\n\n\nAI 安全防护\n模型行为智能审查、工具内容注入防护、AI 智能审批（三项默认关闭）\n\n\n数据安全\n安全网关、传输加密、敏感保护、删除保护、批量删除审批（默认 50）\n\n\n内置运行时 / 审计\n内置运行时工具；审计中心记录拦截/放行日志，支持导出\n\n\n\n自动备份默认开启：修改已有文件前生成快照（约 3000 MB 上限，满了按时间清理最早备份），用于在改错时快速回退，不替代你自己的重要备份。敏感保护默认开启，用关键词/正则/熵值检测 API Key 等敏感信息，命中后可选「允许访问 / 允许加密访问（推荐）/ 禁止访问」。\n\n\n\n\n\n\n说明\n\n\n\n工作区信任：首次打开含 .codebuddy 等开发配置且未加白名单的工作区时会弹信任弹窗。选「受限模式」时仍可浏览编辑，但不扫描/运行配置目录下文件、不自动加载规则脚本、不自动启动相关 Agent。信任以工作区目录为单位。",
+    "crumbs": [
+      "**基础入门**",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Task 1｜认识 WorkBuddy 与安全起步</span>"
+    ]
+  },
+  {
+    "objectID": "02-Prompt提示词与模型选择.html",
+    "href": "02-Prompt提示词与模型选择.html",
+    "title": "Task 2｜Prompt 提示词与模型选择",
+    "section": "",
+    "text": "2.1 提示词与上下文\n也可以点击输入框的「语音输入」按钮口述需求，语音实时转为文字（Mac 左 ⌥、Windows Alt 点击或长按）。\n官方示例：",
+    "crumbs": [
+      "**基础入门**",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Task 2｜Prompt 提示词与模型选择</span>"
+    ]
+  },
+  {
+    "objectID": "02-Prompt提示词与模型选择.html#提示词与上下文",
+    "href": "02-Prompt提示词与模型选择.html#提示词与上下文",
+    "title": "Task 2｜Prompt 提示词与模型选择",
+    "section": "",
+    "text": "“帮我把这份销售数据生成一个分析报告，包含图表”\n“整理 Downloads 文件夹里的图片，按日期分类”\n“根据这份会议纪要生成一个 PPT”\n“调研一下 2024 年 AI 行业趋势，写一份报告”\n\n\n添加上下文的四种方式\n\n\n\n方式\n说明\n\n\n\n\n引用上下文\n通过 @ 引用文件、文档、规则等信息\n\n\n粘贴截图\nCtrl/⌘+V 直接粘贴剪贴板图片\n\n\n上传文件\n点击上传按钮或拖拽文件到输入框\n\n\n补充说明\n在描述中明确目标、范围、约束和预期输出\n\n\n\n\n\n\n\n\n\n提示\n\n\n\n官方建议优先补充四类信息：① 目标是什么（要生成什么/处理什么文件）；② 输入是什么（要分析的数据、参考文档）；③ 输出格式（Word/Excel/PPT 等）；④ 约束条件（风格、字数、截止时间等）。\n\n\n补充细节：@ 还可唤起「浏览器操作」等能力；文件可直接拖拽到页面任意位置，最多 50 个、单个大小不限，添加后不会自动发送；粘贴超 3000 字符自动收起为可展开条目。上传格式支持 PDF、Word、TXT、Markdown、Excel、CSV、PPT、图片、压缩包及常见代码文件。所有文件处理默认在本地完成，原始数据不上传云端。\n工作空间是上下文的载体：点击输入框左下角「选择工作空间」指定目录，WorkBuddy 在其中读写文件。建议按任务类型分别建立，如「发票整理」「周报」「待处理照片」。",
+    "crumbs": [
+      "**基础入门**",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Task 2｜Prompt 提示词与模型选择</span>"
+    ]
+  },
+  {
+    "objectID": "02-Prompt提示词与模型选择.html#需求表达",
+    "href": "02-Prompt提示词与模型选择.html#需求表达",
+    "title": "Task 2｜Prompt 提示词与模型选择",
+    "section": "2.2 需求表达",
+    "text": "2.2 需求表达\n\n技巧一：三要素公式「做什么 + 有什么 + 怎么样」\n反面示范\n\n“帮我把上次的会议纪要整理一下。”\n信息太少，WorkBuddy 不会读心术，发挥空间混沌。\n\n正面示范\n\n“把 D:/会议纪要/0320产品评审.docx 整理成清单：1）每个议题的结论；2）责任人和截止日期；3）标记有争议、未决事项。用表格输出，不需要开场白。”\n\n\n\n\n\n\n\n提示\n\n\n\n不知道从哪开始时，先问一句：“我想做 XX，你需要我提供哪些信息？”，让它先帮你梳理输入项。\n\n\n\n\n技巧二：小步快跑，一次搞定一件事\n把“读 50 页报告 → 写汇报 PPT → 发邮件”这类大任务拆成多轮：\n\n读取报告 PDF，提炼 5 个核心结论，每条一句话并附原文页码。\n基于这 5 条结论，写一份 15 页汇报大纲，聚焦与我业务相关的机会。\n把第二页“机会分析”扩展成完整 PPT 页面内容，并发给领导。\n\n\n\n技巧三：不满意就调整\n官方列出四类调整方法：直接指出问题（“太长”“语气太正式”）、换角度重述需求、补充限制条件（受众/场景/格式/篇幅）、切换角色视角（老板/客户/产品经理/分析师）。\n\n\n\n\n\n\n要点\n\n\n\n官方比喻：把和 WorkBuddy 的对话，想象成在指导一个很勤奋、但需要反馈的实习生。 多轮打磨是常态，不是失败。\n\n\n\n\n技巧四：给身份、给例子\n\n给身份：选择内置专家角色（法律顾问、产品经理、数据分析师、营销文案等），WorkBuddy 会优先沿该角色思路组织回答。\n给例子：「一个好的参考样本，胜过写十行抽象要求」——直接给一个满意样本并说“照这个来”。\n\n你是一位在投行工作 10 年的财务分析师，以你见过最优秀的\n研究报告为标准，帮我分析这家公司的财报。重点关注：\n1）收入结构是否健康；2）现金流是否存在隐患；3）相比同行\n的竞争优势。请给出明确投资建议；数据不足可大胆假设，但要\n标注假设条件。我要的是有洞察力的分析，而不是数据搬运。\n\n\n技巧五：用提示词模板\n创建任务页按场景（日常办公、代码开发、设计创意）提供提示词模板。悬停模板会在输入框显示灰色预览文案（不进入草稿、不会被发送），点击才真正填入。切换场景时，「办公/开发」展示文字类任务，「设计」展示图片案例。",
+    "crumbs": [
+      "**基础入门**",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Task 2｜Prompt 提示词与模型选择</span>"
+    ]
+  },
+  {
+    "objectID": "02-Prompt提示词与模型选择.html#模式选择",
+    "href": "02-Prompt提示词与模型选择.html#模式选择",
+    "title": "Task 2｜Prompt 提示词与模型选择",
+    "section": "2.3 模式选择",
+    "text": "2.3 模式选择\n官方提供三种工作模式，可通过输入框左侧 + 菜单切换（Plan 与 Ask 互斥，关闭后回到默认模式）：\n\n\n\n\n\n\n\n\n模式\n说明\n适用场景\n\n\n\n\n默认（Agent）\n高效执行任务指令，可修改文件\n文档生成、表格处理、文件整理\n\n\n计划（Plan）\n先规划任务，等你确认后再执行\n多步骤任务、需审阅改动范围\n\n\n仅问答（Ask）\n适合问问题、找思路，不做执行\n了解内容、确认需求\n\n\n\n\n\n\n\n\n\n注意\n\n\n\n官方文档中工作模式只有以上三种，不存在名为 “Act” 的模式；与之最接近的是默认（Agent）模式。\n\n\n\n计划（Plan）模式\n核心是「先出方案，再动手执行」——模型先补齐信息、给出可审阅的完整方案，确认后才执行，可以在几十秒内纠正方向，而不是等结果跑完才发现思路错了。\n\n\n\n建议开启 Plan\n默认模式更快\n\n\n\n\n任务要拆成多个步骤\n单点问答：查数字、问概念、翻译\n\n\n需求模糊、有多种解法\n明确的小改动\n\n\n关键前提尚未确定\n一句话即可执行\n\n\n产出成本高，不想白跑\n连续轻量追问\n\n\n\n一句话判断：如果「怎么做」比「做出来」更值得先讨论，就开 Plan 模式；只要一个答案，就用默认模式。流程：打开 Plan 开关 → 回答关键变量提问（可跳过，模型自行假设并标注）→ 右侧查看完整方案 →「开始执行」或「调整计划」（确认前不会执行）。\n\n\n\n\n\n\n说明\n\n\n\n注意区分维度：工作模式（Agent/Plan/Ask）决定“怎么执行”，权限模式（默认权限/完全访问）决定“能访问什么”。两者是不同维度的设置。",
+    "crumbs": [
+      "**基础入门**",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Task 2｜Prompt 提示词与模型选择</span>"
+    ]
+  },
+  {
+    "objectID": "02-Prompt提示词与模型选择.html#模型选择与切换",
+    "href": "02-Prompt提示词与模型选择.html#模型选择与切换",
+    "title": "Task 2｜Prompt 提示词与模型选择",
+    "section": "2.4 模型选择与切换",
+    "text": "2.4 模型选择与切换\n\n按任务类型选模型系列\n\n\n\n模型系列\n适用场景\n\n\n\n\nMiniMax\nExcel 处理、数据分析、PPT 生成，执行速度快\n\n\n智谱 GLM\n多步骤、长流程的复杂任务\n\n\nKimi\n截图分析、图片转文档等视觉类任务\n\n\nDeepSeek\n日常问答、文案撰写，响应快、成本低\n\n\n腾讯混元\n中文写作、会议纪要、中文文档处理\n\n\n\n\n\n三档模型模式\n\n\n\n\n\n\n\n\n模式\n适用场景\n特点\n\n\n\n\n快速模式\n日常问答、格式转换、小段代码修改、文案润色\n响应最快、消耗最低\n\n\n均衡模式\n写文档、分析数据、多文件代码改动\n效果和速度兼顾，不确定时用它\n\n\n极致模式\n跨模块重构、多步骤推理、需反复验证的分析\n稍慢、消耗高，复杂任务更稳\n\n\n\n\n\n内置模型清单（部分）\n\n\n\n\n\n\n\n\n模型\n简介\n功能\n\n\n\n\nHy4 preview / Hy3\n混元新一代 / 混元思考模型\n图片输入、思考模式\n\n\nGLM-5.3 / 5.2\n支持 1M 上下文窗口，擅长长程任务\n图片输入、思考模式\n\n\nGLM-5.3-Flash / 5.1\n快速版 / 能力均衡适合日常\n思考 / 推理模型\n\n\nMiniMax-M3 / m2.7\n原生多模态，擅长代码/智能体 / 性价比高\n图片输入、推理模型\n\n\nKimi-K3 / K2.7-Code / K2.6\n长程自主任务与前端开发 / 编程优化 / 日常\n图片输入、推理模型\n\n\nDeepseek-V4-Flash / Pro\n旗舰模型，1M 上下文，速度优先\n思考模式\n\n\n\n\n\n相关配置项\n\n思考强度：越高做越多分析和自我检查，适合逻辑链长、易出错任务；默认档位已适配绝大多数场景，一般无需调整。\n上下文窗口：点输入框的「上下文用量圆环」，在「默认 / 适中 / 超长」间切换，仅对当前任务、下一轮生效。官方提醒：窗口并非越大越好。\n繁忙程度：悬停模型看信息卡，分空闲（绿）、轻微拥堵（橙）、极度拥堵（红，建议换模型）、不可用。\n经济模式：设置 → 智能体 → 经济模式（个人版默认开启），开启时自动压缩上下文降低积分消耗。\n自定义模型：支持提供商接入、本地部署（Ollama 默认端口 11434）、自定义 URL；参数仅保存在本地 workbuddy/models.json，费用向第三方支付。\n\n\n\n\n\n\n\n注意\n\n\n\n切换时机：对话中途切换会在下一轮生效，可能降低性能、增加积分消耗。模型下线时优先切到同系列新模型，无对应新模型则用系统默认；切换后思考强度与上下文窗口按新模型默认值。",
+    "crumbs": [
+      "**基础入门**",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Task 2｜Prompt 提示词与模型选择</span>"
+    ]
+  },
+  {
+    "objectID": "03-Skill技能与MCP连接器.html",
+    "href": "03-Skill技能与MCP连接器.html",
+    "title": "Task 3｜Skill 技能与 MCP 连接器",
+    "section": "",
+    "text": "3.1 技能介绍\n官方定义：技能（Skill）用于扩展 WorkBuddy 的能力，通过封装脚本与工作流，帮助完成发送邮件、读写文件、查询信息等特定任务（如订外卖、查询股价、调用第三方 API 等）。",
+    "crumbs": [
+      "**工具与实战**",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Task 3｜Skill 技能与 MCP 连接器</span>"
+    ]
+  },
+  {
+    "objectID": "03-Skill技能与MCP连接器.html#技能介绍",
+    "href": "03-Skill技能与MCP连接器.html#技能介绍",
+    "title": "Task 3｜Skill 技能与 MCP 连接器",
+    "section": "",
+    "text": "本质：把「脚本 + 工作流」封装成可复用的能力模块。\n来源：技能市场（推荐/SkillHub/套件）、本地上传、对话中创建。\n安全：非官方 Skill 可能存在恶意提示词注入、越权访问、后门等隐患，安装前请校验来源、权限申请与脚本内容，优先使用官方推荐 Skill。\n成本：复杂任务与复杂 Skill 通常积分消耗较高。\n权限：Skill 调用第三方、改本地文件、执行系统命令时均以你本人身份执行，涉及删除/批量写入/资金类操作建议先小范围验证。",
+    "crumbs": [
+      "**工具与实战**",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Task 3｜Skill 技能与 MCP 连接器</span>"
+    ]
+  },
+  {
+    "objectID": "03-Skill技能与MCP连接器.html#技能安装与使用",
+    "href": "03-Skill技能与MCP连接器.html#技能安装与使用",
+    "title": "Task 3｜Skill 技能与 MCP 连接器",
+    "section": "3.2 技能安装与使用",
+    "text": "3.2 技能安装与使用\n入口：左侧边栏点击「专家·技能·连接器」→「技能」页签。板块分两区：\n\n\n\n\n\n\n\n区域\n内容\n\n\n\n\n技能市场\n按推荐、SkillHub、套件分类展示，可一键安装；卡片显示使用量与安装量，支持按综合/使用量/安装量/更新排序\n\n\n已安装\n已装在本地的技能，可直接在对话中调用\n\n\n\n\n四种获取方式\n\n技能页面添加：点击技能卡片右上角「+」，提示安装成功。\n对话安装：直接说“帮我找一个能把网页转成 PDF 的技能”，WorkBuddy 自动搜索市场并展示候选，确认后安装（仅限市场内技能）。\n上传技能：「添加技能 → 上传技能」，拖拽或选择本地技能包，导入后自动配置。\n创建/查找技能：「添加技能 → 创建技能」输入描述自动创建；「查找技能」自动查找并安装。\n\n\n\n管理\n\n启用/关闭：关闭后仍保留在列表，不再参与新任务调用；状态多端同步；关闭 ≠ 卸载（卸载才彻底删除）。建议仅启用当前任务所需技能。\n搜索：技能较多时用搜索框按关键词定位。\n卸载：已安装 → 选中技能 →「⋯」→ 卸载；或用「批量管理」批量卸载。",
+    "crumbs": [
+      "**工具与实战**",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Task 3｜Skill 技能与 MCP 连接器</span>"
+    ]
+  },
+  {
+    "objectID": "03-Skill技能与MCP连接器.html#常用技能推荐",
+    "href": "03-Skill技能与MCP连接器.html#常用技能推荐",
+    "title": "Task 3｜Skill 技能与 MCP 连接器",
+    "section": "3.3 常用技能推荐",
+    "text": "3.3 常用技能推荐\n以下为官方「零成本 Skill Top 10」系列中代表性的几项：\nFind Skills（找技能） find-skills\n\n根据需求快速筛选候选 Skill 并解释差异。真正的门槛往往不是安装，而是选择。\n场景：不确定是否已有现成技能、想让 AI 先筛一轮、快速了解候选区别。\n\nWeb Search（网页搜索） web-search\n\n遇到“最近/最新/现在”类时效问题时，先搜索、再整理、再回答，降低信息过期误判。\n场景：查最新资料、找新闻、收集某领域信息、先查后写。\n\n办公文档四件套（内置指令）\n\nPDF 抽正文/表格/OCR/拆合；DOCX 生成文档/补目录页码；PPTX 读幻灯片/重做演示；XLSX 清洗表格/补公式/汇总。\n\nAgent Browser（浏览器） agent-browser\n\n直接在网页中执行打开、滚动、点击、展开、截图和读取信息，适合必须交互后才可见的内容。\n\nFrontend Design（前端设计） frontend-design\n\n生成前端页面时兼顾设计感、风格一致性和演示效果，而不只是可运行代码。\n\nSelf-improvement / Skill Scanner\n\n前者记录经验偏好、越用越贴合习惯；后者在安装前审查第三方 Skill 的可疑依赖与硬编码配置。\n\n\n\n\n\n\n\n提示\n\n\n\n用法示例：“请帮我搜索最近 1 个月 AI 办公工具领域的重要动态，整理成要点摘要，并附上来源链接。”——带上时间范围、要求附来源、先查后写，是官方推荐的最佳实践。",
+    "crumbs": [
+      "**工具与实战**",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Task 3｜Skill 技能与 MCP 连接器</span>"
+    ]
+  },
+  {
+    "objectID": "03-Skill技能与MCP连接器.html#连接器原理",
+    "href": "03-Skill技能与MCP连接器.html#连接器原理",
+    "title": "Task 3｜Skill 技能与 MCP 连接器",
+    "section": "3.4 连接器原理",
+    "text": "3.4 连接器原理\n官方定义：连接器用于将 WorkBuddy 与外部服务对接，将外部数据和能力引入 AI 工作流；在获得授权后访问和操作第三方服务，实现数据互通与能力扩展。\n实现形态分两类：MCP + CLI（标准化协议）和 Skill + CLI（内置脚本），二者在数据收集和权限边界上遵循一致原则。已支持 QQ 邮箱、腾讯文档、腾讯乐享、腾讯会议、TAPD、腾讯网盘，并支持自定义连接器。\n\n\n\n场景\n说明\n示例\n\n\n\n\n数据查询\n从外部数据源获取信息\n查询数据库、检索文档\n\n\n服务调用\n调用第三方 API 完成操作\n发送邮件、创建日程\n\n\n文件管理\n访问云端存储与文件系统\n读取网盘文件、上传附件\n\n\n消息通知\n与即时通讯工具集成\n发企业微信/飞书消息\n\n\n\n\n\n\n\n\n\n要点\n\n\n\n权限边界：每个连接器独立授权；不主动定时抓取；不超出你已有权限范围。积分：连接器自身读写不消耗积分，WorkBuddy 对外部数据进行理解、汇总时才消耗。",
+    "crumbs": [
+      "**工具与实战**",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Task 3｜Skill 技能与 MCP 连接器</span>"
+    ]
+  },
+  {
+    "objectID": "03-Skill技能与MCP连接器.html#连接器使用",
+    "href": "03-Skill技能与MCP连接器.html#连接器使用",
+    "title": "Task 3｜Skill 技能与 MCP 连接器",
+    "section": "3.5 连接器使用",
+    "text": "3.5 连接器使用\n\n添加四步\n\n侧边栏「专家·技能·连接器」→「连接器」页签。\n找到目标连接器，点卡片右上「+」。\n按提示完成登录、授权或配置。\n授权完成后即可使用。\n\n\n\n三种使用方式\n\n页面发起：在连接器页面点「去对话」。\n创建任务时启用：输入框左下「+ → 连接器」，弹窗中开启。\n执行中按需连接：任务中需要未连接的连接器时，输入框上方出现引导卡片，授权后自动继续执行。\n\n\n\nQQ 邮箱连接示例\n\n点卡片「+」发起连接，跳转授权页显示二维码。\n用 QQ 邮箱 App 扫码（7.1.5 / 鸿蒙 0.2.9 及以上）。\n手机端确认权限：账号信息、读取近一个月邮件、发送邮件、删除邮件（可选），点「同意授权」。\n手机显示「授权成功」。\n回到 WorkBuddy，卡片旁出现绿色圆点，提示「已连接」。\n\n\n\n\n\n\n\n注意\n\n\n\n授权失效：输入框上方出现「连接器需要重新连接」卡片，点「重新连接」完成授权后自动重试失败步骤（同一步骤只自动重试一次）。网络超时、服务异常、无权限不会触发此卡片。停用：「+ → 连接器」关闭启用；解绑：管理页选中连接器点「解绑」（内置连接器不支持卸载）。",
+    "crumbs": [
+      "**工具与实战**",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Task 3｜Skill 技能与 MCP 连接器</span>"
+    ]
+  },
+  {
+    "objectID": "03-Skill技能与MCP连接器.html#连接器-vs-技能",
+    "href": "03-Skill技能与MCP连接器.html#连接器-vs-技能",
+    "title": "Task 3｜Skill 技能与 MCP 连接器",
+    "section": "3.6 连接器 vs 技能",
+    "text": "3.6 连接器 vs 技能\n两者分工互补：连接器负责“把外部数据与服务带进来”，技能负责“用脚本与工作流把事情做出来”。依据官方定义归纳如下：\n\n\n\n\n\n\n\n\n维度\n技能（Skill）\n连接器（Connector / MCP）\n\n\n\n\n定位\n扩展能力，封装脚本与工作流\n对接外部服务，引入外部数据与能力\n\n\n实现形态\n脚本 + 工作流\nMCP + CLI、Skill + CLI\n\n\n来源\n技能市场、本地上传、AI 创建\n官方已支持服务 + 自定义 MCP\n\n\n授权\n安装启用时授权，第三方需校验\n每个连接器独立授权（OAuth/API Key/扫码）\n\n\n积分\n复杂技能消耗较高\n自身读写不耗，理解/汇总外部数据时消耗\n\n\n第三方交互\n部分技能可能外发输入\n本质即与外部服务交互，凭据由 WorkBuddy 维护\n\n\n\n\n\n\n\n\n\n说明\n\n\n\n官方未设专门的“连接器 vs 技能”对比章节，上表依据两处官方定义归纳。实际使用中二者常在同一任务里协同：如 Web Search 先查后整理、办公文档技能生成导出、连接器提供外部数据。",
+    "crumbs": [
+      "**工具与实战**",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Task 3｜Skill 技能与 MCP 连接器</span>"
+    ]
+  },
+  {
+    "objectID": "04-技能实战与深度调研实战.html",
+    "href": "04-技能实战与深度调研实战.html",
+    "title": "Task 4｜技能实战与深度调研实战",
+    "section": "",
+    "text": "4.1 自制技能\n创建技能的官方入口：侧边栏「专家·技能·连接器 → 技能 → 添加技能 → 创建技能」，输入任务描述，WorkBuddy 会自动创建相关技能。这一机制让“把重复工作流沉淀成自己的技能”变得简单——你描述要做什么，系统生成技能封装。",
+    "crumbs": [
+      "**工具与实战**",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Task 4｜技能实战与深度调研实战</span>"
+    ]
+  },
+  {
+    "objectID": "04-技能实战与深度调研实战.html#自制技能",
+    "href": "04-技能实战与深度调研实战.html#自制技能",
+    "title": "Task 4｜技能实战与深度调研实战",
+    "section": "",
+    "text": "两个辅助技能\nself-improvement（自我改进）\n\n让 WorkBuddy 记录经验、偏好与修正结果，后续相似任务优先参考。适合长期沉淀写作风格、内容偏好、固定流程；明确纠正过的偏好更有效。\n例：你说过自己来自湖北但不爱吃辣，后续新对话仍可能延续这类偏好。\n\nSkill Scanner（技能扫描）\n\n第三方 Skill 本质是可执行代码。该技能在安装前做安全审查，发现可疑依赖、硬编码配置与潜在风险。\n官方建议：在执行 npm install、clawhub install 等安装命令前先使用它——先审计，再安装。\n\n\n\n\n\n\n\n说明\n\n\n\n说明：公开文档未详述技能包 SKILL.md 的字段格式与自定义技能存放目录的完整规范。实际使用时，以客户端「添加技能 → 创建技能」的引导与 SkillHub（skillhub.cn）上的技能说明为准。",
+    "crumbs": [
+      "**工具与实战**",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Task 4｜技能实战与深度调研实战</span>"
+    ]
+  },
+  {
+    "objectID": "04-技能实战与深度调研实战.html#快速熟悉陌生领域调研",
+    "href": "04-技能实战与深度调研实战.html#快速熟悉陌生领域调研",
+    "title": "Task 4｜技能实战与深度调研实战",
+    "section": "4.2 快速熟悉陌生领域调研",
+    "text": "4.2 快速熟悉陌生领域调研\n面对陌生领域，核心能力是 Web Search：当问题涉及“最近/最新/现在”时，仅依赖模型记忆不够，应让它先搜索、再整理、再回答。\n\n可复现的调研流程\n\n明确三要素：检索主题 + 时间范围 + 最终输出格式。\n先搜索：触发 web-search 联网检索。\n再整理：让 AI 归纳出要点摘要，要求附来源链接以便复核引用。\n先查后写：把整理结果作为后续简报、PPT 的输入。\n\n\n\n实战：每日自动推送资讯简报\n这是官方“调研 → 整理 → 产出 → 分发”的完整闭环案例：\n\n先通过连接器把 QQ 邮箱对接好。\n手动跑第一条：“请生成今天的资讯简报，包含本地天气、AI 行业动态、重点新闻和我的任务摘要，并发送到我的 QQ 邮箱。”（约 2–3 分钟）\n设置定时：“请创建一个定时任务，每天早上 8 点 30 分为我生成资讯简报并发送到 QQ 邮箱。”可在左侧「定时任务」统一管理。\n个性化：“改成只发送工作日版本，保留财经资讯和 AI 新闻，语气调整为简洁专业。”\n\n\n\n\n\n\n\n提示\n\n\n\n三条通用建议：先说清输出格式（Markdown/Word/表格/纯文本）；补充约束条件（命名、结构、风格、术语）；先小批量验证，再放大使用，并预留真实执行时长。",
+    "crumbs": [
+      "**工具与实战**",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Task 4｜技能实战与深度调研实战</span>"
+    ]
+  },
+  {
+    "objectID": "04-技能实战与深度调研实战.html#调研直出-ppt",
+    "href": "04-技能实战与深度调研实战.html#调研直出-ppt",
+    "title": "Task 4｜技能实战与深度调研实战",
+    "section": "4.3 调研直出 PPT",
+    "text": "4.3 调研直出 PPT\nWorkBuddy 在「设计创意」模式中深度集成腾讯自研 AI 设计平台 Ardot 画布，支持一句话生成 UI、PPT、海报等设计稿，实时对话修改、云端同步，可跳转 Ardot 精修，最后导出 PPTX/PDF。\n\n开始使用三步\n\n首页点「新建任务」，选最右侧「设计创意」Tab。\n首次使用授权连接 Ardot：系统用登录手机号自动完成身份关联，无需单独注册。\n点「确认」完成授权，设计稿存云端，换设备仍可继续编辑。\n\n\n\n生成与设计风格\n\n图片素材：可选「色块占位」（后续手动替换）或「AI 生图」（一次出稿即成品）。\n风格模板：点输入框下方「设计风格」展开；默认品牌模板有 TDesign、Apple、Meta、Miro、Notion、Spotify 等；先选设计类型（如 PPT 设计）则切换到专属风格（优雅杂志、高级黑灰等）。未选时 AI 自动匹配，也可用自然语言说“换成极简风”。\n\n帮我制作一份 AI 硬件产品发布会 PPT，风格是科技简约\n参考这个网页链接的视觉风格进行优化\n把这个按钮整体放大 / 首页背景改成渐变蓝色\n\n\n修改与交付\n三种修改方式：智能框选 + 对话（局部精准调整）、纯语言指挥（全局调整）、粘贴参考（网页链接或参考图片）。精修时点画布 Tab 顶部「用浏览器打开进行编辑」进入 Ardot 完整编辑器，支持像素级编辑、组件化、专业导出。\n\n\n\n\n\n\n要点\n\n\n\nPPT 导出：Ardot 编辑器右上角「下载」可导出为 PPTX（用 PowerPoint/WPS 继续编辑）或 PDF（分享打印）。官方推荐工作流：对话快速出稿（3 分钟）→ Ardot 精修交付（5 分钟）→ 回 WorkBuddy 生成代码（1 分钟）。\n\n\n\n\n\n\n\n\n说明\n\n\n\n官方未设“调研结果一键直出 PPT”的单一功能；实际做法是把调研整理好的要点与来源链接，作为设计需求输入「设计创意」模式生成 PPT——这是基于两项官方能力的组合用法。",
+    "crumbs": [
+      "**工具与实战**",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Task 4｜技能实战与深度调研实战</span>"
+    ]
+  },
+  {
+    "objectID": "05-专家与团队ExpertTeam.html",
+    "href": "05-专家与团队ExpertTeam.html",
+    "title": "Task 5｜专家与团队（Expert Team）",
+    "section": "",
+    "text": "5.1 什么是专家（Expert）\n专家用于为 WorkBuddy 配置专业角色，在特定领域中以更明确的方法和视角完成任务。官方给出两句关键定性：\n使用步骤：侧边栏「专家·技能·连接器」默认「专家」页签 → 浏览卡片（专家展示能力介绍、擅长领域、任务示例；专家团额外展示团队成员）→ 点「召唤」进入对话 → 描述任务。召唤后会随机选一条引导提示词作为开场。",
+    "crumbs": [
+      "**协作与沉淀**",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Task 5｜专家与团队（Expert Team）</span>"
+    ]
+  },
+  {
+    "objectID": "05-专家与团队ExpertTeam.html#什么是专家expert",
+    "href": "05-专家与团队ExpertTeam.html#什么是专家expert",
+    "title": "Task 5｜专家与团队（Expert Team）",
+    "section": "",
+    "text": "专家是「角色切换」机制：以“人设 + 方法论 + 工具链”让 WorkBuddy 用特定领域专家身份执行任务。\n专家团是「协作执行」机制：由多位专家分工，由团长自动拆解、并行执行、整合交付。\n\n\n\n\n\n\n\n\n\n\n维度\nSkill\n专家（Agent 型）\n专家团（Team 型）\n\n\n\n\n本质\n工具能力：让 AI 能做某件事\nAI 顾问：懂某领域的角色\nAI 协作团队：拆解、并行、完整交付\n\n\n怎么选\n需要某种工具能力\n有一个明确的单点问题\n任务复杂，需多角色配合\n\n\n\n\n\n\n\n\n\n\n注意\n\n\n\n积分提示：专家团积分消耗通常为单专家的 3–5 倍（并行调用多位专家、多轮交互），召唤前请关注余额。依赖 MCP/连接器的专家在未连接时会显示引导卡片，授权后自动继续当前任务。",
+    "crumbs": [
+      "**协作与沉淀**",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Task 5｜专家与团队（Expert Team）</span>"
+    ]
+  },
+  {
+    "objectID": "05-专家与团队ExpertTeam.html#设计你的专家团队",
+    "href": "05-专家与团队ExpertTeam.html#设计你的专家团队",
+    "title": "Task 5｜专家与团队（Expert Team）",
+    "section": "5.2 设计你的专家团队",
+    "text": "5.2 设计你的专家团队\n\n在客户端创建专家\n\n「专家」页右上角点「我的专家」。\n点「创建专家」，系统进入创建对话，由内置专家管理工具引导配置（无需额外安装）。\n按对话提示配置，完成后出现在「我的专家」列表，选中即可召唤。\n\n\n\n\n\n\n\n\n\n配置项\n建议做法\n应避免\n\n\n\n\n头像与名称\n短角色名，如“文档评审官”\n“专家1”“助手”等无指向名称\n\n\n人设身份\n“是谁 + 有什么背景”，如“10 年经验的后端工程师”\n写成任务本身\n\n\n擅长领域\n写清“做什么 / 不做什么”\n“什么都行”\n\n\n提示词\n写工作流程、输出格式与约束，能举例最好\n只写“您是一个专家”\n\n\n\n\n\n\n\n\n\n注意\n\n\n\n官方提示：创建前请确认名称，创建后无法修改，改名需重新创建。管理入口在「我的专家」卡片「⋯」：修改、分享（对方获得副本）、删除。\n\n\n\n\n专家包结构（上架市场用）\nmy-expert/\n├── .codebuddy-plugin/\n│   └── plugin.json\n├── avatars/\n│   └── expert.png\n├── agents/\n│   └── my-expert.md\n└── README.md\nplugin.json 关键字段：name（唯一标识）、expertType（agent 或 team）、agentName、团队用 teamInfo{leadAgent, memberAgents}、displayName/profession/displayDescription（中文字数 40–50）、defaultInitPrompt、quickPrompts（3 个）等。Agent 定义文件为 Markdown，文件头用 YAML frontmatter 声明 name/description/displayName/profession，正文为系统提示词。\n\n\n\n\n\n\n说明\n\n\n\n官方明确：开发者不可自行添加 tools，所有工具权限由系统统一分配。内置工具包括 Read、Write、Grep、Glob、Bash、WebSearch、WebFetch，以及主理人可用的 AgentTool（调用其他 Agent）与 SendMessage。",
+    "crumbs": [
+      "**协作与沉淀**",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Task 5｜专家与团队（Expert Team）</span>"
+    ]
+  },
+  {
+    "objectID": "05-专家与团队ExpertTeam.html#子-agent",
+    "href": "05-专家与团队ExpertTeam.html#子-agent",
+    "title": "Task 5｜专家与团队（Expert Team）",
+    "section": "5.3 子 Agent",
+    "text": "5.3 子 Agent\n用户常说的“子 Agent”，在 WorkBuddy 官方体系中主要对应两种形态：\n\n专家团中的成员 Agent：由 teamInfo.leadAgent（主理人/团长）与 teamInfo.memberAgents（成员列表）构成，团长通过 AgentTool、SendMessage 调度成员。\n通过 AgentTool 调用的其他 Agent：主理人可调用其他 Agent 协作完成任务。\n\n调用方式对用户极简：召唤专家团后用自然语言描述任务，团长自动拆解、分配、执行并返回完整结果。配置则通过专家包的 teamInfo 与 agents/ 目录下的 Agent 定义文件（Markdown + YAML frontmatter）声明。\n\n\n\n\n\n\n说明\n\n\n\n易混淆点：侧边栏的「助理（远程任务）」是用手机远程控制电脑上的 WorkBuddy，与子 Agent / 多 Agent 协作无关，只是命名相近。公开的客户端文档未设独立的“子 Agent 配置界面”说明。\n\n\n在客户端内部实现中，主 Agent 可把任务委派给不同类型的子代理（例如通用型 general-purpose 用于多步骤调研与执行、探索型 Explore 用于快速检索代码与资料、以及表格/文档等专用代理），并支持多代理团队协作与消息互通。这类内部类型由系统提供，用户主要通过专家团与专家配置来间接使用。",
+    "crumbs": [
+      "**协作与沉淀**",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Task 5｜专家与团队（Expert Team）</span>"
+    ]
+  },
+  {
+    "objectID": "05-专家与团队ExpertTeam.html#专家-vs-子-agent",
+    "href": "05-专家与团队ExpertTeam.html#专家-vs-子-agent",
+    "title": "Task 5｜专家与团队（Expert Team）",
+    "section": "5.4 专家 vs 子 Agent",
+    "text": "5.4 专家 vs 子 Agent\n专家（Expert / Agent 型）\n\n角色切换机制：单一 AI 角色，用特定领域的人设、方法论、工具链解决一个明确的单点问题。\n积分消耗相对低；配置以人设 + 提示词为主。\n\n子 Agent / 专家团（Team 型）\n\n协作执行机制：多角色分工，团长自动拆解、并行执行、整合交付，用于复杂、需多角色配合的任务。\n积分约为单专家 3–5 倍；通过 teamInfo 与 Agent 定义文件配置。\n\n\n\n\n\n\n\n提示\n\n\n\n怎么选：需要工具能力 → Skill；有明确单点问题 → 专家；任务复杂需多角色配合 → 专家团（多子 Agent 协作）。",
+    "crumbs": [
+      "**协作与沉淀**",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Task 5｜专家与团队（Expert Team）</span>"
+    ]
+  },
+  {
+    "objectID": "06-资料库与记忆Memory.html",
+    "href": "06-资料库与记忆Memory.html",
+    "title": "Task 6｜资料库与记忆（Memory）",
+    "section": "",
+    "text": "6.1 资料库是什么\n官方定位：资料库是人和 Agent 共同的产物存放地，让 AI 生成的文件从“用完即散落”推进到“沉淀、管理、流转协同”的完整链路。它不是把文件堆在一起，而是让 MD、CSV、HTML 三种载体互相引用、彼此联动——文档被页面引用、表格被页面渲染，改一处、处处生效。\n左侧边栏点击「资料库」进入。三块核心能力：01 内容管理 · 02 多人多 Agent 协作 · 03 轻量发布。",
+    "crumbs": [
+      "**协作与沉淀**",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Task 6｜资料库与记忆（Memory）</span>"
+    ]
+  },
+  {
+    "objectID": "06-资料库与记忆Memory.html#资料库是什么",
+    "href": "06-资料库与记忆Memory.html#资料库是什么",
+    "title": "Task 6｜资料库与记忆（Memory）",
+    "section": "",
+    "text": "核心特性\n\n人与 Agent 同权限：Agent 读写资料库时权限与当前用户完全一致，不越权。\n一棵目录树：AI 三件套（MD/CSV/HTML）、办公文件（PDF/Word/PPT/Excel）、图片音视频统一归拢。\n个人与团队分区：「我的文档」放个人产出，「团队空间」放项目共享资料。\n改动闭环：从资料库添加到任务 → 基于资料提问 → 成果保存回资料库。\nAI 修改可审阅可回退：对 MD 的修改不覆盖原文，以“待确认”呈现，接受后才写入。\n\n容量配额（侧边栏底部显示容量条）：体验版 5GB、标准版 10GB、高级版 20GB、旗舰版 50GB；加入 Buddy One 后升级为 1TB 共享容量。办公与本地文件由腾讯网盘存储，WorkBuddy 中创建的内容存于 WorkBuddy 云端。",
+    "crumbs": [
+      "**协作与沉淀**",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Task 6｜资料库与记忆（Memory）</span>"
+    ]
+  },
+  {
+    "objectID": "06-资料库与记忆Memory.html#资料库使用与协作",
+    "href": "06-资料库与记忆Memory.html#资料库使用与协作",
+    "title": "Task 6｜资料库与记忆（Memory）",
+    "section": "6.2 资料库使用与协作",
+    "text": "6.2 资料库使用与协作\n\n存入资料的两种路径\n\n会话中保存：在生成产物的会话中要求 Agent 存入资料库，它会上传并告知位置。\n分享即存入：在产物点「分享 → 发布 → 发布为网站」，生成在线链接的同时，内容也会进入资料库。\n\n\n\nMD / CSV / HTML 的分工\n\n\n\n载体\n角色\n说明\n\n\n\n\nMD\n决定内容\n文字与结构\n\n\nCSV\n存储数据\n唯一数据源，由在线表格承载，多人同时维护\n\n\nHTML\n负责表达\n通过表格 ID 读取数据实时渲染，CSV 更新页面随之刷新\n\n\n\n任务中读取：文件详情页右上「⋯ → 添加到任务」，所选内容进入任务上下文后即可直接提问。编辑器：MD 支持划词菜单（AI 编辑/加粗/链接等）、目录导航、查找替换（Ctrl/⌘+F、Ctrl/⌘+H）、智能复制；HTML 支持手动编辑与选中元素唤起 AI 编辑。\n\n\n协作共享\n左栏「团队空间」点 + 新建空间，可用四种方式放资料：新建文档/表格、上传本地文件、剪藏网页链接、让 Agent 直接生成。空间菜单「邀请和管理成员」可复制链接邀请。成员权限四档：\n\n\n\n权限\n可做的事\n\n\n\n\n查看\n浏览内容，不能修改\n\n\n编辑\n新建、修改和整理内容\n\n\n管理\n管理成员与权限设置\n\n\n无权限\n不可访问\n\n\n\n\n\n\n\n\n\n要点\n\n\n\nAgent 按同一权限读取：“人看不到的内容，Agent 也读不到”，不必为 Agent 单独维护权限。审阅模式：AI 修改 MD 时标为“待确认”，列出“原文 / 改后”对照，只有点「接受」才写入正文；HTML 的 AI 修改则即时生效。\n\n\n\n\n轻发布与知识库接入\n发布为网站：页面右上「分享 → 发布 → 发布为网站」，开关默认关闭，开启后任何人凭链接可访问（域名 workbuddy.link），可随时关闭，发布前请确认内容适合公开。HTML + CSV 轻应用：把资料“变好看”（汇报、作品集）用一个 HTML，把资料“变能用”（工作台、看板、记账）用 HTML + CSV，实现数据在线存储与双向同步。\n腾讯文档接入：侧边栏资料库 → 腾讯文档 → 立即前往授权（微信/QQ 扫码），获得登录用户的文档权限；支持导入本地文件/文件夹、语义搜索与关键词搜索、任务引用指定文件、把产物存回腾讯文档（MD 产物默认创建为智能文档）。企业账号仅支持端内部分操作，解绑仅个人账号可用。",
+    "crumbs": [
+      "**协作与沉淀**",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Task 6｜资料库与记忆（Memory）</span>"
+    ]
+  },
+  {
+    "objectID": "06-资料库与记忆Memory.html#记忆机制与身份文件",
+    "href": "06-资料库与记忆Memory.html#记忆机制与身份文件",
+    "title": "Task 6｜资料库与记忆（Memory）",
+    "section": "6.3 记忆机制与身份文件",
+    "text": "6.3 记忆机制与身份文件\n\nMemory 如何工作\n官方导语：记忆让 WorkBuddy 记住你的偏好和习惯，对话越多，它就越懂你。它从会话历史中提取有价值的个人信息（事实信息、偏好习惯、人物关系、近期跟进事项等）形成「记忆数据」并定期更新；后续对话或任务执行时，把与当前请求相关的记忆作为背景信息一并参考。\n\n提取频率：每晚整理当天会话，仅你本人可见。\n入口：头像 →「设置 → 记忆」，可查看、编辑、删除或一键关闭。\n编辑方式：唤起对话框，用对话告诉它要记住或忘记什么。\n导入：可把其他 AI 上的使用习惯复制提示词、粘贴结果，点「添加到记忆」导入。\n用途：① 注入系统提示词作为上下文；② 支持对会话历史的检索（如“上周做过什么”）。\n成本与隐私：不消耗积分（WorkBuddy 自费）、不涉及第三方共享。\n\n\n\n\n\n\n\n注意\n\n\n\n记忆由模型自动抽取，可能有概括偏差或时效性问题，依赖它做重要判断前建议先核验。不希望被记住的信息可在「设置 → 记忆」删除或关闭；关闭或删除后相应数据停止用于后续对话，但已生成的输出不会追溯撤回。\n\n\n\n\n身份文件\n除云端记忆外，WorkBuddy 客户端还通过一组身份与记忆文件持久化“你是谁、用户是谁、项目惯例是什么”。这些文件是 Markdown 文本，可被编辑，构成跨会话的稳定上下文：\n\n\n\n文件\n作用\n\n\n\n\nSOUL.md\n定义助手的“灵魂”：核心价值、行为准则、风格与边界\n\n\nIDENTITY.md\n身份记录：名字、形象、气质等稳定身份信息\n\n\nUSER.md\n用户画像：称呼、职业、偏好与关注点\n\n\nMEMORY.md\n长期记忆：跨项目或当前项目的精要笔记与约定\n\n\nYYYY-MM-DD.md\n工作日志：按天追加记录有长期价值的工作与决策\n\n\n\n\n\n\n\n\n\n说明\n\n\n\n身份文件属于客户端内置机制，公开帮助文档未逐项展开其完整规范；实际以你本地工作区中的文件为准。记忆分层（短期/长期）在公开文档中亦未定义，官方仅描述了“提取 → 形成记忆数据 → 每晚整理 → 注入上下文/检索历史”的处理流程。",
+    "crumbs": [
+      "**协作与沉淀**",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Task 6｜资料库与记忆（Memory）</span>"
+    ]
+  },
+  {
+    "objectID": "06-资料库与记忆Memory.html#资料库与记忆的分工",
+    "href": "06-资料库与记忆Memory.html#资料库与记忆的分工",
+    "title": "Task 6｜资料库与记忆（Memory）",
+    "section": "6.4 资料库与记忆的分工",
+    "text": "6.4 资料库与记忆的分工\n两者都服务于“为 Agent 提供上下文”，但定位不同。依据官方原文归纳如下（官方未设专门对比章节）：\n\n\n\n\n\n\n\n\n维度\n资料库（Library）\n记忆（Memory）\n\n\n\n\n存放对象\n显式产物与文件：MD/CSV/HTML/PDF/Office/图片音视频\n隐式个人信息：事实、偏好、人物关系、跟进事项\n\n\n数据来源\n人上传、Agent 生成、剪藏网页、知识库导入\n模型自动从会话历史抽取\n\n\n生成节奏\n主动保存 / 任务产出保存\n每晚自动整理更新\n\n\n可见范围\n个人、团队空间、发布链接（按权限）\n仅本人可见\n\n\n共享协作\n多人多 Agent 协作、权限四档、轻发布\n不共享、不用于多人协作\n\n\n消费方式\n添加到任务作为上下文，可读取/修改/回存\n注入系统提示词、检索会话历史\n\n\n积分\n存储/检索不耗，加工分析按 AI 操作计\n不涉及积分消耗\n\n\n入口\n左侧边栏「资料库」\n头像 →「设置 → 记忆」\n\n\n\n\n\n\n\n\n\n提示\n\n\n\n一句话区分：资料库是对外的、可共享可协作的产物底座（显式、可审阅、可回存）；记忆是对内的、私人的个性化背景（自动抽取、隐式、仅本人可见）。前者强调团队流转与发布，后者强调习惯沉淀与隐私可控。",
+    "crumbs": [
+      "**协作与沉淀**",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Task 6｜资料库与记忆（Memory）</span>"
+    ]
+  }
+]

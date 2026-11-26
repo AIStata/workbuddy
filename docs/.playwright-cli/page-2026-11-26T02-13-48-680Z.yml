@@ -1,0 +1,565 @@
+- generic [active] [ref=e1]:
+  - banner:  > 
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: http://127.0.0.1:8908/
+        - generic [ref=e6]:
+          - link "WorkBuddy 教程" [ref=e7] [cursor=pointer]:
+            - /url: http://127.0.0.1:8908/
+          - link "Toggle reader mode" [ref=e9] [cursor=pointer]:
+            - /url: http://127.0.0.1:8908/01-%E8%AE%A4%E8%AF%86WorkBuddy%E4%B8%8E%E5%AE%89%E5%85%A8%E8%B5%B7%E6%AD%A5.html
+      - generic "Search" [ref=e14]:
+        - combobox [ref=e15]:
+          - search [ref=e16]:
+            - button "Submit" [ref=e19] [cursor=pointer]
+            - searchbox "Submit" [ref=e23]
+      - list [ref=e25]:
+        - listitem [ref=e26]:
+          - link "Home" [ref=e28] [cursor=pointer]:
+            - /url: http://127.0.0.1:8908/
+        - listitem [ref=e29]:
+          - generic [ref=e30] [cursor=pointer]:
+            - navigation [ref=e31]:
+              - strong [ref=e33]: 基础入门
+            - navigation "Toggle section" [ref=e34]:
+              - generic [ref=e35]: 
+          - list [ref=e36]:
+            - listitem [ref=e37]:
+              - link "Task 1｜认识 WorkBuddy 与安全起步" [ref=e39] [cursor=pointer]:
+                - /url: http://127.0.0.1:8908/01-%E8%AE%A4%E8%AF%86WorkBuddy%E4%B8%8E%E5%AE%89%E5%85%A8%E8%B5%B7%E6%AD%A5.html
+            - listitem [ref=e40]:
+              - link "Task 2｜Prompt 提示词与模型选择" [ref=e42] [cursor=pointer]:
+                - /url: http://127.0.0.1:8908/02-Prompt%E6%8F%90%E7%A4%BA%E8%AF%8D%E4%B8%8E%E6%A8%A1%E5%9E%8B%E9%80%89%E6%8B%A9.html
+        - listitem [ref=e43]:
+          - generic [ref=e44] [cursor=pointer]:
+            - navigation [ref=e45]:
+              - strong [ref=e47]: 工具与实战
+            - navigation "Toggle section" [ref=e48]:
+              - generic [ref=e49]: 
+          - list [ref=e50]:
+            - listitem [ref=e51]:
+              - link "Task 3｜Skill 技能与 MCP 连接器" [ref=e53] [cursor=pointer]:
+                - /url: http://127.0.0.1:8908/03-Skill%E6%8A%80%E8%83%BD%E4%B8%8EMCP%E8%BF%9E%E6%8E%A5%E5%99%A8.html
+            - listitem [ref=e54]:
+              - link "Task 4｜技能实战与深度调研实战" [ref=e56] [cursor=pointer]:
+                - /url: http://127.0.0.1:8908/04-%E6%8A%80%E8%83%BD%E5%AE%9E%E6%88%98%E4%B8%8E%E6%B7%B1%E5%BA%A6%E8%B0%83%E7%A0%94%E5%AE%9E%E6%88%98.html
+        - listitem [ref=e57]:
+          - generic [ref=e58] [cursor=pointer]:
+            - navigation [ref=e59]:
+              - strong [ref=e61]: 协作与沉淀
+            - navigation "Toggle section" [ref=e62]:
+              - generic [ref=e63]: 
+          - list [ref=e64]:
+            - listitem [ref=e65]:
+              - link "Task 5｜专家与团队（Expert Team）" [ref=e67] [cursor=pointer]:
+                - /url: http://127.0.0.1:8908/05-%E4%B8%93%E5%AE%B6%E4%B8%8E%E5%9B%A2%E9%98%9FExpertTeam.html
+            - listitem [ref=e68]:
+              - link "Task 6｜资料库与记忆（Memory）" [ref=e70] [cursor=pointer]:
+                - /url: http://127.0.0.1:8908/06-%E8%B5%84%E6%96%99%E5%BA%93%E4%B8%8E%E8%AE%B0%E5%BF%86Memory.html
+    - navigation [ref=e72]:
+      - heading "Table of contents" [level=2] [ref=e73]
+      - list [ref=e74]:
+        - listitem [ref=e75]:
+          - link "1.1 Agent 工具介绍" [ref=e76] [cursor=pointer]:
+            - /url: http://127.0.0.1:8908/01-%E8%AE%A4%E8%AF%86WorkBuddy%E4%B8%8E%E5%AE%89%E5%85%A8%E8%B5%B7%E6%AD%A5.html#agent-%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D
+          - list [ref=e77]:
+            - listitem [ref=e78]:
+              - link "核心能力（六项）" [ref=e79] [cursor=pointer]:
+                - /url: http://127.0.0.1:8908/01-%E8%AE%A4%E8%AF%86WorkBuddy%E4%B8%8E%E5%AE%89%E5%85%A8%E8%B5%B7%E6%AD%A5.html#%E6%A0%B8%E5%BF%83%E8%83%BD%E5%8A%9B%E5%85%AD%E9%A1%B9
+            - listitem [ref=e80]:
+              - link "与传统 AI 对话的区别" [ref=e81] [cursor=pointer]:
+                - /url: http://127.0.0.1:8908/01-%E8%AE%A4%E8%AF%86WorkBuddy%E4%B8%8E%E5%AE%89%E5%85%A8%E8%B5%B7%E6%AD%A5.html#%E4%B8%8E%E4%BC%A0%E7%BB%9F-ai-%E5%AF%B9%E8%AF%9D%E7%9A%84%E5%8C%BA%E5%88%AB
+            - listitem [ref=e82]:
+              - link "适用场景" [ref=e83] [cursor=pointer]:
+                - /url: http://127.0.0.1:8908/01-%E8%AE%A4%E8%AF%86WorkBuddy%E4%B8%8E%E5%AE%89%E5%85%A8%E8%B5%B7%E6%AD%A5.html#%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF
+            - listitem [ref=e84]:
+              - link "认识工作界面" [ref=e85] [cursor=pointer]:
+                - /url: http://127.0.0.1:8908/01-%E8%AE%A4%E8%AF%86WorkBuddy%E4%B8%8E%E5%AE%89%E5%85%A8%E8%B5%B7%E6%AD%A5.html#%E8%AE%A4%E8%AF%86%E5%B7%A5%E4%BD%9C%E7%95%8C%E9%9D%A2
+        - listitem [ref=e86]:
+          - link "1.2 WorkBuddy 安装与登录" [ref=e87] [cursor=pointer]:
+            - /url: http://127.0.0.1:8908/01-%E8%AE%A4%E8%AF%86WorkBuddy%E4%B8%8E%E5%AE%89%E5%85%A8%E8%B5%B7%E6%AD%A5.html#workbuddy-%E5%AE%89%E8%A3%85%E4%B8%8E%E7%99%BB%E5%BD%95
+        - listitem [ref=e88]:
+          - link "1.3 任务与项目管理" [ref=e89] [cursor=pointer]:
+            - /url: http://127.0.0.1:8908/01-%E8%AE%A4%E8%AF%86WorkBuddy%E4%B8%8E%E5%AE%89%E5%85%A8%E8%B5%B7%E6%AD%A5.html#%E4%BB%BB%E5%8A%A1%E4%B8%8E%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86
+        - listitem [ref=e90]:
+          - link "1.4 移动端访问（助理 / 远程任务）" [ref=e91] [cursor=pointer]:
+            - /url: http://127.0.0.1:8908/01-%E8%AE%A4%E8%AF%86WorkBuddy%E4%B8%8E%E5%AE%89%E5%85%A8%E8%B5%B7%E6%AD%A5.html#%E7%A7%BB%E5%8A%A8%E7%AB%AF%E8%AE%BF%E9%97%AE%E5%8A%A9%E7%90%86-%E8%BF%9C%E7%A8%8B%E4%BB%BB%E5%8A%A1
+        - listitem [ref=e92]:
+          - link "1.5 权限模式与安全设置" [ref=e93] [cursor=pointer]:
+            - /url: http://127.0.0.1:8908/01-%E8%AE%A4%E8%AF%86WorkBuddy%E4%B8%8E%E5%AE%89%E5%85%A8%E8%B5%B7%E6%AD%A5.html#%E6%9D%83%E9%99%90%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%AE%89%E5%85%A8%E8%AE%BE%E7%BD%AE
+    - main [ref=e94]:
+      - generic [ref=e95]:
+        - navigation "breadcrumb" [ref=e96]:
+          - list [ref=e97]:
+            - listitem [ref=e98]:
+              - link [ref=e99] [cursor=pointer]:
+                - /url: http://127.0.0.1:8908/01-%E8%AE%A4%E8%AF%86WorkBuddy%E4%B8%8E%E5%AE%89%E5%85%A8%E8%B5%B7%E6%AD%A5.html
+                - strong [ref=e100]: 基础入门
+            - listitem [ref=e101]:
+              - text: ">"
+              - link "Task 1｜认识 WorkBuddy 与安全起步" [ref=e102] [cursor=pointer]:
+                - /url: http://127.0.0.1:8908/01-%E8%AE%A4%E8%AF%86WorkBuddy%E4%B8%8E%E5%AE%89%E5%85%A8%E8%B5%B7%E6%AD%A5.html
+        - heading "Task 1｜认识 WorkBuddy 与安全起步" [level=1] [ref=e104]
+      - blockquote [ref=e105]:
+        - paragraph [ref=e106]: 装上它，守好边界
+      - generic [ref=e107]:
+        - heading [level=2] [ref=e108]:
+          - text: 1.1 Agent 工具介绍
+          - link "Anchor" [ref=e109] [cursor=pointer]:
+            - /url: "#agent-工具介绍"
+            - text: 
+        - generic [ref=e110]:
+          - heading [level=3] [ref=e111]:
+            - text: 核心能力（六项）
+            - link "Anchor" [ref=e112] [cursor=pointer]:
+              - /url: "#核心能力六项"
+              - text: 
+          - list [ref=e113]:
+            - listitem [ref=e114]:
+              - strong [ref=e115]: 自然语言交互
+              - text: ：用一句话描述需求，无需预先拆分复杂操作步骤。
+            - listitem [ref=e116]:
+              - strong [ref=e117]: 自主规划与执行
+              - text: ：根据任务目标自动拆解步骤、规划流程并完成。
+            - listitem [ref=e118]:
+              - strong [ref=e119]: 多模态任务处理
+              - text: ：支持文档、表格、PPT、数据分析等多种任务类型。
+            - listitem [ref=e120]:
+              - strong [ref=e121]: 本地文件操作
+              - text: ：授权后可读取和处理本地文件，支持批量整理、修改。
+            - listitem [ref=e122]:
+              - strong [ref=e123]: 多任务并行
+              - text: ：可同时创建和处理多个任务，适合并行推进不同工作。
+            - listitem [ref=e124]:
+              - strong [ref=e125]: 结果交付与验收
+              - text: ：完成后可在结果区查看和使用生成的成果。
+        - generic [ref=e126]:
+          - heading [level=3] [ref=e127]:
+            - text: 与传统 AI 对话的区别
+            - link "Anchor" [ref=e128] [cursor=pointer]:
+              - /url: "#与传统-ai-对话的区别"
+              - text: 
+          - table [ref=e129]:
+            - rowgroup [ref=e130]:
+              - row [ref=e131]:
+                - columnheader "对比项" [ref=e132]
+                - columnheader "传统 AI 对话" [ref=e133]
+                - columnheader "WorkBuddy" [ref=e134]
+            - rowgroup [ref=e135]:
+              - row [ref=e136]:
+                - cell "任务执行" [ref=e137]
+                - cell "只能对话，提供建议" [ref=e138]
+                - cell "能够实际执行任务" [ref=e139]
+              - row [ref=e140]:
+                - cell "文件操作" [ref=e141]
+                - cell "需要手动操作文件" [ref=e142]
+                - cell "自动操作本地文件" [ref=e143]
+              - row [ref=e144]:
+                - cell "任务复杂度" [ref=e145]
+                - cell "单步骤简单任务" [ref=e146]
+                - cell "多步骤复杂任务" [ref=e147]
+              - row [ref=e148]:
+                - cell "输出" [ref=e149]
+                - cell "输出文字回复" [ref=e150]
+                - cell "交付可验收的结果" [ref=e151]
+        - generic [ref=e152]:
+          - heading [level=3] [ref=e153]:
+            - text: 适用场景
+            - link "Anchor" [ref=e154] [cursor=pointer]:
+              - /url: "#适用场景"
+              - text: 
+          - table [ref=e155]:
+            - rowgroup [ref=e156]:
+              - row [ref=e157]:
+                - columnheader "场景" [ref=e158]
+                - columnheader "能做什么" [ref=e159]
+            - rowgroup [ref=e160]:
+              - row [ref=e161]:
+                - cell "日常办公" [ref=e162]
+                - cell "写文档、做分析、查资料、整理信息，把琐碎任务交出去" [ref=e163]
+              - row [ref=e164]:
+                - cell "代码开发" [ref=e165]
+                - cell "写代码、读项目、开发网站和应用" [ref=e166]
+              - row [ref=e167]:
+                - cell "设计创意" [ref=e168]
+                - cell "从想法出发生成图片、PPT、网页等设计内容" [ref=e169]
+              - row [ref=e170]:
+                - cell "项目协作" [ref=e171]
+                - cell "围绕项目持续处理任务、使用项目资料" [ref=e172]
+              - row [ref=e173]:
+                - cell "专业任务" [ref=e174]
+                - cell "用专家和技能复用专业知识与工作方法" [ref=e175]
+              - row [ref=e176]:
+                - cell "服务协作" [ref=e177]
+                - cell "通过连接器接入第三方服务，访问外部数据" [ref=e178]
+              - row [ref=e179]:
+                - cell "资料与知识" [ref=e180]
+                - cell "集中管理资料，基于资料检索、分析和生成内容" [ref=e181]
+        - generic [ref=e182]:
+          - heading [level=3] [ref=e183]:
+            - text: 认识工作界面
+            - link "Anchor" [ref=e184] [cursor=pointer]:
+              - /url: "#认识工作界面"
+              - text: 
+          - table [ref=e185]:
+            - rowgroup [ref=e186]:
+              - row [ref=e187]:
+                - columnheader "区域" [ref=e188]
+                - columnheader "功能" [ref=e189]
+            - rowgroup [ref=e190]:
+              - row [ref=e191]:
+                - cell "工具栏" [ref=e192]
+                - cell "屏幕顶部，提供关于、编辑、窗口等常用操作入口" [ref=e193]
+              - row [ref=e194]:
+                - cell "侧边栏" [ref=e195]
+                - cell "显示任务列表（按文件夹分组），支持搜索管理；底部为用户头像" [ref=e196]
+              - row [ref=e197]:
+                - cell "对话区" [ref=e198]
+                - cell "核心交互区，含任务标题栏、消息列表和输入框" [ref=e199]
+              - row [ref=e200]:
+                - cell "结果区" [ref=e201]
+                - cell "右侧面板，提供「概览」与「产物」两类内容，可切换查看" [ref=e202]
+          - generic [ref=e203]:
+            - generic [ref=e204]: 提示
+            - paragraph [ref=e209]:
+              - text: 官方建议的阅读顺序：
+              - strong [ref=e210]: 创建任务 → 任务管理 → 任务对话 → 结果查看
+              - text: 。
+          - separator [ref=e211]
+      - generic [ref=e212]:
+        - heading [level=2] [ref=e213]:
+          - text: 1.2 WorkBuddy 安装与登录
+          - link "Anchor" [ref=e214] [cursor=pointer]:
+            - /url: "#workbuddy-安装与登录"
+            - text: 
+        - generic [ref=e215]:
+          - heading [level=3] [ref=e216]:
+            - text: 环境要求
+            - link "Anchor" [ref=e217] [cursor=pointer]:
+              - /url: "#环境要求"
+              - text: 
+          - list [ref=e218]:
+            - listitem [ref=e219]:
+              - strong [ref=e220]: Windows
+              - text: ：Windows 10 及以上，支持 x64；不支持 Windows 7/8/8.1。
+            - listitem [ref=e221]:
+              - strong [ref=e222]: macOS
+              - text: ：macOS 12（Monterey）及以上。
+        - generic [ref=e223]:
+          - heading [level=3] [ref=e224]:
+            - text: Windows 安装
+            - link "Anchor" [ref=e225] [cursor=pointer]:
+              - /url: "#windows-安装"
+              - text: 
+          - list [ref=e226]:
+            - listitem [ref=e227]: 访问官网点击「立即下载」，选择 Windows，下载安装包。
+            - listitem [ref=e228]: 双击安装包启动安装程序，勾选「我同意此协议」，点击「下一步」。
+            - listitem [ref=e229]: 选择安装路径（默认可直接下一步），确认开始菜单文件夹。
+            - listitem [ref=e230]: 建议勾选「创建桌面快捷方式」，确认配置后点击「安装」。
+            - listitem [ref=e231]: 安装完成后点击「完成」退出向导。
+          - generic [ref=e232]:
+            - generic [ref=e233]: 说明
+            - paragraph [ref=e238]: 安装用户建议选择「仅为我安装」。更新入口：头像 →「检查更新」，系统自动检测并升级。
+        - generic [ref=e239]:
+          - heading [level=3] [ref=e240]:
+            - text: Mac 安装
+            - link "Anchor" [ref=e241] [cursor=pointer]:
+              - /url: "#mac-安装"
+              - text: 
+          - paragraph [ref=e242]:
+            - text: 版本选择：
+            - strong [ref=e243]: M 系列芯片
+            - text: 选
+            - code [ref=e244]: Mac ARM64
+            - text: ，
+            - strong [ref=e245]: Intel 芯片
+            - text: 选
+            - code [ref=e246]: Mac X64
+            - text: ；官网未识别设备时默认给 X64（可通过 Rosetta 在 M 系列运行，兼容性更广）。查版本：左上角苹果图标 →「关于本机」。
+          - list [ref=e247]:
+            - listitem [ref=e248]:
+              - text: 双击下载的
+              - code [ref=e249]: .dmg
+              - text: 文件，打开安装窗口。
+            - listitem [ref=e250]:
+              - text: 将 WorkBuddy 图标拖入
+              - strong [ref=e251]: Applications（应用程序）
+              - text: 文件夹。
+            - listitem [ref=e252]:
+              - text: 等待拷贝完成后，推出磁盘映像，可删除
+              - code [ref=e253]: .dmg
+              - text: 安装包。
+          - generic [ref=e254]:
+            - generic [ref=e255]: 注意
+            - paragraph [ref=e260]:
+              - text: 务必拖入「应用程序」文件夹后再启动。若直接从磁盘映像运行，WorkBuddy 将运行在只读映像上，
+              - strong [ref=e261]: 后续无法自动更新
+              - text: 。如检查更新失败，可点击提示中的「移动到应用程序」一键修复。
+        - generic [ref=e262]:
+          - heading [level=3] [ref=e263]:
+            - text: 登录
+            - link "Anchor" [ref=e264] [cursor=pointer]:
+              - /url: "#登录"
+              - text: 
+          - list [ref=e265]:
+            - listitem [ref=e266]: 启动 WorkBuddy，点击「登录」，浏览器自动打开登录页（workbuddy.cn）。
+            - listitem [ref=e267]:
+              - text: 勾选《用户服务协议》与《隐私政策》，使用
+              - strong [ref=e268]: 微信扫码
+              - text: 完成登录。
+            - listitem [ref=e269]: 页面显示登录成功后，返回客户端即可开始使用。
+          - paragraph [ref=e270]: 也支持手机号、邮箱、SSO 等方式，全程在当前页面完成。个人用户选「个人」，企业版用户选「企业」。语言切换：头像 → 设置 → 通用 → 语言。
+          - separator [ref=e271]
+      - generic [ref=e272]:
+        - heading [level=2] [ref=e273]:
+          - text: 1.3 任务与项目管理
+          - link "Anchor" [ref=e274] [cursor=pointer]:
+            - /url: "#任务与项目管理"
+            - text: 
+        - generic [ref=e275]:
+          - heading [level=3] [ref=e276]:
+            - text: 开启第一个任务
+            - link "Anchor" [ref=e277] [cursor=pointer]:
+              - /url: "#开启第一个任务"
+              - text: 
+          - list [ref=e278]:
+            - listitem [ref=e279]: 微信扫码登录。
+            - listitem [ref=e280]: 点击「新建任务」创建 PC 端任务。
+            - listitem [ref=e281]: 在对话框中描述需求。
+            - listitem [ref=e282]: 点击「发送」，WorkBuddy 开始执行。
+            - listitem [ref=e283]: 打开右侧窗口查看结果：目标文件在「产物」，其他文件在「概览 → 工作空间文件」。
+          - generic [ref=e284]:
+            - generic [ref=e285]: 提示
+            - paragraph [ref=e290]: 移动端发送的任务在「助理」中查看。WorkBuddy 可连接小程序、App，接入微信助理、企微助理、QQ 机器人、飞书、钉钉机器人等。
+        - generic [ref=e291]:
+          - heading [level=3] [ref=e292]:
+            - text: 任务状态与筛选
+            - link "Anchor" [ref=e293] [cursor=pointer]:
+              - /url: "#任务状态与筛选"
+              - text: 
+          - paragraph [ref=e294]:
+            - text: 官方定义六种任务状态：
+            - strong [ref=e295]: 进行中、已完成、失败、待处理、规划中、已归档
+            - text: 。窗口左上方提供「搜索」与「筛选」：
+          - list [ref=e296]:
+            - listitem [ref=e297]:
+              - strong [ref=e298]: 搜索
+              - text: ：可检索任务、空间、产物与资料库，结果分五类，命中关键词高亮。
+            - listitem [ref=e299]:
+              - strong [ref=e300]: 筛选
+              - text: ：支持按状态（进行中/已完成/失败等）和日期筛选，可一键重置。
+          - paragraph [ref=e301]:
+            - text: 侧边栏对「已完成未读、失败（红色感叹号）、待确认」等状态做标记，分组收起时按
+            - strong [ref=e302]: 待确认 > 已完成未读 > 失败 > 进行中
+            - text: 逐层聚合。
+        - generic [ref=e303]:
+          - heading [level=3] [ref=e304]:
+            - text: 继续处理与常用操作
+            - link "Anchor" [ref=e305] [cursor=pointer]:
+              - /url: "#继续处理与常用操作"
+              - text: 
+          - paragraph [ref=e306]: 已完成、失败或中断的任务都可重新进入，在已有上下文基础上继续补充消息。悬停任务行点「⋯」或右键可：置顶、重命名、分享任务（生成公开链接）、独立窗口打开、保存到工作空间（可开启多个 Agent 协作）、归档、删除等。
+          - blockquote [ref=e307]:
+            - paragraph [ref=e308]:
+              - strong [ref=e309]: 警告
+              - text: ：
+              - strong [ref=e310]: 删除任务不可恢复
+              - text: ：删除后将从所有设备移除；运行中的任务删除会立即终止。正在运行的任务无法批量删除。
+          - paragraph [ref=e311]:
+            - text: 常用快捷键：
+            - code [ref=e312]: Ctrl/⌘+K
+            - text: 全局搜索、
+            - code [ref=e313]: Ctrl/⌘+Shift+E
+            - text: 定位当前任务、
+            - code [ref=e314]: Ctrl/⌘+[ ]
+            - text: 切换上一个/下一个任务。
+        - generic [ref=e315]:
+          - heading [level=3] [ref=e316]:
+            - text: 项目：团队协作能力
+            - link "Anchor" [ref=e317] [cursor=pointer]:
+              - /url: "#项目团队协作能力"
+              - text: 
+          - paragraph [ref=e318]:
+            - text: 项目通过「项目 + 任务」两层结构，让团队共享上下文、标准与知识。项目把
+            - strong [ref=e319]: 指令、连接器、专家、技能和资料
+            - text: 统一组织，成员发起任务时这些配置
+            - strong [ref=e320]: 自动注入
+            - text: ，无需重复设置。
+          - table [ref=e321]:
+            - rowgroup [ref=e325]:
+              - row [ref=e326]:
+                - columnheader "要点" [ref=e327]
+                - columnheader "说明" [ref=e328]
+            - rowgroup [ref=e329]:
+              - row [ref=e330]:
+                - cell "项目配置" [ref=e331]
+                - cell "名称（必填）、指令（全局规则，所有任务继承）、连接器、专家、技能" [ref=e332]
+              - row [ref=e333]:
+                - cell "邀请成员" [ref=e334]
+                - cell "点「邀请」→ 复制链接 → 对方申请 → 管理员在消息中心审批" [ref=e335]
+              - row [ref=e336]:
+                - cell "任务流转" [ref=e337]
+                - cell "打包产物、进度摘要、自定义字段与附件，接收方基于完整上下文继续" [ref=e338]
+              - row [ref=e339]:
+                - cell "项目资产" [ref=e340]
+                - cell [ref=e341]:
+                  - text: 统一文件管理中心，以 RAG 形式注入上下文；每项目默认
+                  - strong [ref=e342]: 5 GB
+                  - text: 空间
+              - row [ref=e343]:
+                - cell "项目配置目录" [ref=e344]
+                - cell [ref=e345]:
+                  - code [ref=e346]: .codebuddy/rules/
+                  - text: 、
+                  - code [ref=e347]: agents/
+                  - text: 、
+                  - code [ref=e348]: skills/
+                  - text: 、
+                  - code [ref=e349]: commands/
+                  - text: 、
+                  - code [ref=e350]: CODEBUDDY.md
+                  - text: ，项目级优先于用户级
+          - separator [ref=e351]
+      - generic [ref=e352]:
+        - heading [level=2] [ref=e353]:
+          - text: 1.4 移动端访问（助理 / 远程任务）
+          - link "Anchor" [ref=e354] [cursor=pointer]:
+            - /url: "#移动端访问助理-远程任务"
+            - text: 
+        - paragraph [ref=e355]:
+          - text: 「助理」是 WorkBuddy 的远程控制功能，官方比喻为遥控器：
+          - strong [ref=e356]: 手机发一条消息 → 电脑上的 WorkBuddy 自动执行 → 结果回复到手机
+          - text: 。支持微信助理（推荐）、微信客服号、企微助理、QQ 机器人、飞书、钉钉机器人。
+        - paragraph [ref=e357]: 典型场景：出门在外让电脑处理文件、会议中生成纪要、通勤路上准备材料、随时随地派发任务。
+        - table [ref=e358]:
+          - rowgroup [ref=e359]:
+            - row [ref=e360]:
+              - columnheader "对比项" [ref=e361]
+              - columnheader "普通任务" [ref=e362]
+              - columnheader "助理（远程任务）" [ref=e363]
+          - rowgroup [ref=e364]:
+            - row [ref=e365]:
+              - cell "工作目录" [ref=e366]
+              - cell "自由指定" [ref=e367]
+              - cell "固定使用「助理」专属文件夹" [ref=e368]
+            - row [ref=e369]:
+              - cell "新建对话" [ref=e370]
+              - cell "支持多个并行任务" [ref=e371]
+              - cell "仅一个会话，所有远程指令集中处理" [ref=e372]
+            - row [ref=e373]:
+              - cell "上下文管理" [ref=e374]
+              - cell "可清空历史重新开始" [ref=e375]
+              - cell "保留完整历史，不可清空" [ref=e376]
+        - paragraph [ref=e377]:
+          - strong [ref=e378]: 配置三步
+          - text: ：头像 → 设置 → 助理设置 → 按需配置平台集成 → 按提示完成。使用时电脑需保持开机并运行 WorkBuddy、网络正常。微信客服号可直接扫码绑定，企业微信/QQ/飞书/钉钉通常需先在对应平台完成应用或机器人配置。
+        - generic [ref=e379]:
+          - generic [ref=e380]: 要点
+          - paragraph [ref=e385]:
+            - strong [ref=e386]: 安全边界
+            - text: ：绑定身份（可灵活换绑）、来源校验（多层校验每条指令）、高风险任务确认（文件删除、系统配置修改、命令执行需确认）。解绑在「助理设置」中点卡片右侧「解绑」。
+        - separator [ref=e387]
+      - generic [ref=e388]:
+        - heading [level=2] [ref=e389]:
+          - text: 1.5 权限模式与安全设置
+          - link "Anchor" [ref=e390] [cursor=pointer]:
+            - /url: "#权限模式与安全设置"
+            - text: 
+        - paragraph [ref=e391]:
+          - text: WorkBuddy 提供
+          - strong [ref=e392]: 默认权限
+          - text: 和
+          - strong [ref=e393]: 完全访问权限
+          - text: 两种模式。官方把它比作一层安全护栏：日常不挡路，真正越界或危险动作时请你再确认一次。切换入口在
+          - strong [ref=e394]: 输入框底部
+          - text: 的常驻权限状态按钮。
+        - table [ref=e395]:
+          - rowgroup [ref=e396]:
+            - row [ref=e397]:
+              - columnheader "对比项" [ref=e398]
+              - columnheader "默认权限" [ref=e399]
+              - columnheader "完全访问权限" [ref=e400]
+          - rowgroup [ref=e401]:
+            - row [ref=e402]:
+              - cell "文件访问范围" [ref=e403]
+              - cell "沙箱约束内，越界需请求允许" [ref=e404]
+              - cell "计算机上任意位置" [ref=e405]
+            - row [ref=e406]:
+              - cell "删除/修改文件" [ref=e407]
+              - cell "需逐次确认" [ref=e408]
+              - cell "多数直接执行" [ref=e409]
+            - row [ref=e410]:
+              - cell "终端命令" [ref=e411]
+              - cell "系统级命令需确认" [ref=e412]
+              - cell "可直接运行、安装软件、改系统设置" [ref=e413]
+            - row [ref=e414]:
+              - cell "访问互联网" [ref=e415]
+              - cell "受控，敏感动作需确认" [ref=e416]
+              - cell "可访问网站、发送数据" [ref=e417]
+            - row [ref=e418]:
+              - cell "打断频率 / 风险" [ref=e419]
+              - cell "较高 / 低" [ref=e420]
+              - cell "很低 / 高" [ref=e421]
+            - row [ref=e422]:
+              - cell "生效范围" [ref=e423]
+              - cell "当前任务" [ref=e424]
+              - cell "当前客户端内所有任务，不跨设备" [ref=e425]
+        - paragraph [ref=e426]:
+          - strong [ref=e427]: 默认权限重点保护
+          - text: ：写入受保护/敏感路径、删除重要文件或批量删除、执行脚本命令或外部程序、网络访问或敏感能力。取消确认则不会执行。沙箱还提供命令约束、删除保护（回收站）、文件备份。
+        - generic [ref=e428]:
+          - generic [ref=e429]: 注意
+          - paragraph [ref=e434]:
+            - strong [ref=e435]: 不建议开启完全访问的场景
+            - text: ：处理生产/客户/财务资料或唯一副本；工作目录靠近桌面、下载或项目根目录；任务会批量删除/重命名/覆盖；需运行不了解的脚本；电脑有重要文件且无备份。仅在 Docker、虚拟机、一次性目录等可隔离环境短时开启，用完即关。
+        - generic [ref=e436]:
+          - heading [level=3] [ref=e437]:
+            - text: 安全中心
+            - link "Anchor" [ref=e438] [cursor=pointer]:
+              - /url: "#安全中心"
+              - text: 
+          - paragraph [ref=e439]: 安全中心做比权限模式更细粒度的控制，统一管理安全、数据保护与运行环境，主要分组：
+          - table [ref=e440]:
+            - rowgroup [ref=e444]:
+              - row [ref=e445]:
+                - columnheader "分组" [ref=e446]
+                - columnheader "主要配置项" [ref=e447]
+            - rowgroup [ref=e448]:
+              - row [ref=e449]:
+                - cell "沙箱安全" [ref=e450]
+                - cell "总开关；文件安全（按路径设允许/询问/拒绝）；命令安全（按前缀）；网络安全（按域名/URL，macOS 支持严格模式）；自动备份" [ref=e451]
+              - row [ref=e452]:
+                - cell "工具管控" [ref=e453]
+                - cell "按工具、MCP 服务及工具粒度启停，对客户端所有 Agent 生效；自定义 MCP 统一开关" [ref=e454]
+              - row [ref=e455]:
+                - cell "AI 安全防护" [ref=e456]
+                - cell "模型行为智能审查、工具内容注入防护、AI 智能审批（三项默认关闭）" [ref=e457]
+              - row [ref=e458]:
+                - cell "数据安全" [ref=e459]
+                - cell "安全网关、传输加密、敏感保护、删除保护、批量删除审批（默认 50）" [ref=e460]
+              - row [ref=e461]:
+                - cell "内置运行时 / 审计" [ref=e462]
+                - cell "内置运行时工具；审计中心记录拦截/放行日志，支持导出" [ref=e463]
+          - paragraph [ref=e464]:
+            - strong [ref=e465]: 自动备份
+            - text: 默认开启：修改已有文件前生成快照（约 3000 MB 上限，满了按时间清理最早备份），用于在改错时快速回退，
+            - strong [ref=e466]: 不替代你自己的重要备份
+            - text: 。
+            - strong [ref=e467]: 敏感保护
+            - text: 默认开启，用关键词/正则/熵值检测 API Key 等敏感信息，命中后可选「允许访问 / 允许加密访问（推荐）/ 禁止访问」。
+          - generic [ref=e468]:
+            - generic [ref=e469]: 说明
+            - paragraph [ref=e474]:
+              - strong [ref=e475]: 工作区信任
+              - text: ：首次打开含
+              - code [ref=e476]: .codebuddy
+              - text: 等开发配置且未加白名单的工作区时会弹信任弹窗。选「受限模式」时仍可浏览编辑，但不扫描/运行配置目录下文件、不自动加载规则脚本、不自动启动相关 Agent。信任以工作区目录为单位。
+    - navigation [ref=e477]:
+      - link "Home" [ref=e479] [cursor=pointer]:
+        - /url: http://127.0.0.1:8908/
+        - generic [ref=e480]: 
+      - link "Task 2｜Prompt 提示词与模型选择" [ref=e483] [cursor=pointer]:
+        - /url: http://127.0.0.1:8908/02-Prompt%E6%8F%90%E7%A4%BA%E8%AF%8D%E4%B8%8E%E6%A8%A1%E5%9E%8B%E9%80%89%E6%8B%A9.html
+        - generic [ref=e485]: 
